@@ -1,0 +1,17 @@
+weapon_other ; Other or type unknown
+weapon_handgun ;Handgun - pistol, revolver, etc
+weapon_shotgun ;Shotgun
+weapon_knife_etc ;Knife or cutting instrument
+weapon_blunt_obj ;Blunt object - hammer, club, etc
+weapon_rifle; Rifle
+weapon_personal_weapon; Personal weapons, includes beating
+weapon_firearm; Firearm, type not stated
+weapon_drowning; Drowning	
+weapon_narcotics; Narcotics or drugs, sleeping pills
+weapon_strangulation; Strangulation - hanging
+weapon_fire; Fire
+weapon_asphyxiation_plus_gas; Asphyxiation - includes death by gas
+weapon_explosives; Explosives
+weapon_poison_no_gas; Poison - does not include gas
+weapon_pushed; Pushed or thrown out window
+weapon_other_gun; Other gun

@@ -1,0 +1,6 @@
+vicRace_black ;Black	
+vicRace_white ;White	
+vicRace_asian ;Asian	
+vicRace_unknown ;Unknown	
+vicRace_native ;American Indian or Alaskan Native	
+vicRace_hawaiian_or_pacific ;Native Hawaiian or Pacific Islander

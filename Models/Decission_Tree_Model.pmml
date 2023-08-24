@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="BoB">
+    <Application name="KNIME" version="4.4.2"/>
+  </Header>
+  <DataDictionary numberOfFields="88">
+    <DataField name="Solved" optype="categorical" dataType="string">
+      <Value value="No"/>
+      <Value value="Yes"/>
+    </DataField>
+    <DataField name="Year" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-1.614140542799106" rightMargin="1.7649150574343366"/>
+    </DataField>
+    <DataField name="Month" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-1.6390392045707456" rightMargin="1.5840651754923156"/>
+    </DataField>
+    <DataField name="VicAge" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-2.0415009200724894" rightMargin="4.088298029788396"/>
+    </DataField>
+    <DataField name="state_alabama" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_alaska" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_arizona" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_arkansas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_california" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_colorado" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_conneticut" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_delaware" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_dist_columbia" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_florida" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_georgia" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_hawaii" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_idaho" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_illinois" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_indiana" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_iowa" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_kensas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_kentucky" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_louisiana" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_maine" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_maryland" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_massachusetts" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_michigan" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_minnesota" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_mississippi" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_missouri" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_montana" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_nebraska" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_nevada" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_hampshire" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_jersey" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_mexico" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_york" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_north_carolina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_north_Dakota" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_ohio" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_oklahoma" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_oregon" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_pennsylvania" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_rhodes_island" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_south_carolina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_south_dakota" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_tennesse" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_texas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_utah" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_vermont" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_virgina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_washington" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_west_virgina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_wisconsin" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_wyoming" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="Sheriff" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_municipal" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_special" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_primaryState" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_county" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_tribal" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_regional" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicSex_male" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicSex_female" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicSex_unknown" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_black" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_white" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_asian" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_native" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_unknown" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_hawaiian_or_pacific" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_other" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_handgun" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_shotgun" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_knife_etc" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_blunt_obj" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_rifle" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_personal_weapon" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_firearm" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_drowning" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_strangulation" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_fire" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_narcotics" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_asphyxiation_plus_gas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_explosives" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_poison_no_gas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_pushed" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_other_gun" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+  </DataDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="Year" invalidValueTreatment="asIs"/>
+      <MiningField name="Month" invalidValueTreatment="asIs"/>
+      <MiningField name="VicAge" invalidValueTreatment="asIs"/>
+      <MiningField name="state_alabama" invalidValueTreatment="asIs"/>
+      <MiningField name="state_alaska" invalidValueTreatment="asIs"/>
+      <MiningField name="state_arizona" invalidValueTreatment="asIs"/>
+      <MiningField name="state_arkansas" invalidValueTreatment="asIs"/>
+      <MiningField name="state_california" invalidValueTreatment="asIs"/>
+      <MiningField name="state_colorado" invalidValueTreatment="asIs"/>
+      <MiningField name="state_conneticut" invalidValueTreatment="asIs"/>
+      <MiningField name="state_delaware" invalidValueTreatment="asIs"/>
+      <MiningField name="state_dist_columbia" invalidValueTreatment="asIs"/>
+      <MiningField name="state_florida" invalidValueTreatment="asIs"/>
+      <MiningField name="state_georgia" invalidValueTreatment="asIs"/>
+      <MiningField name="state_hawaii" invalidValueTreatment="asIs"/>
+      <MiningField name="state_idaho" invalidValueTreatment="asIs"/>
+      <MiningField name="state_illinois" invalidValueTreatment="asIs"/>
+      <MiningField name="state_indiana" invalidValueTreatment="asIs"/>
+      <MiningField name="state_iowa" invalidValueTreatment="asIs"/>
+      <MiningField name="state_kensas" invalidValueTreatment="asIs"/>
+      <MiningField name="state_kentucky" invalidValueTreatment="asIs"/>
+      <MiningField name="state_louisiana" invalidValueTreatment="asIs"/>
+      <MiningField name="state_maine" invalidValueTreatment="asIs"/>
+      <MiningField name="state_maryland" invalidValueTreatment="asIs"/>
+      <MiningField name="state_massachusetts" invalidValueTreatment="asIs"/>
+      <MiningField name="state_michigan" invalidValueTreatment="asIs"/>
+      <MiningField name="state_minnesota" invalidValueTreatment="asIs"/>
+      <MiningField name="state_mississippi" invalidValueTreatment="asIs"/>
+      <MiningField name="state_missouri" invalidValueTreatment="asIs"/>
+      <MiningField name="state_montana" invalidValueTreatment="asIs"/>
+      <MiningField name="state_nebraska" invalidValueTreatment="asIs"/>
+      <MiningField name="state_nevada" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_hampshire" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_jersey" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_mexico" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_york" invalidValueTreatment="asIs"/>
+      <MiningField name="state_north_carolina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_north_Dakota" invalidValueTreatment="asIs"/>
+      <MiningField name="state_ohio" invalidValueTreatment="asIs"/>
+      <MiningField name="state_oklahoma" invalidValueTreatment="asIs"/>
+      <MiningField name="state_oregon" invalidValueTreatment="asIs"/>
+      <MiningField name="state_pennsylvania" invalidValueTreatment="asIs"/>
+      <MiningField name="state_rhodes_island" invalidValueTreatment="asIs"/>
+      <MiningField name="state_south_carolina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_south_dakota" invalidValueTreatment="asIs"/>
+      <MiningField name="state_tennesse" invalidValueTreatment="asIs"/>
+      <MiningField name="state_texas" invalidValueTreatment="asIs"/>
+      <MiningField name="state_utah" invalidValueTreatment="asIs"/>
+      <MiningField name="state_vermont" invalidValueTreatment="asIs"/>
+      <MiningField name="state_virgina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_washington" invalidValueTreatment="asIs"/>
+      <MiningField name="state_west_virgina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_wisconsin" invalidValueTreatment="asIs"/>
+      <MiningField name="state_wyoming" invalidValueTreatment="asIs"/>
+      <MiningField name="Sheriff" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_municipal" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_special" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_primaryState" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_county" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_tribal" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_regional" invalidValueTreatment="asIs"/>
+      <MiningField name="vicSex_male" invalidValueTreatment="asIs"/>
+      <MiningField name="vicSex_female" invalidValueTreatment="asIs"/>
+      <MiningField name="vicSex_unknown" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_black" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_white" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_asian" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_native" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_unknown" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_hawaiian_or_pacific" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_other" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_handgun" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_shotgun" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_knife_etc" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_blunt_obj" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_rifle" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_personal_weapon" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_firearm" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_drowning" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_strangulation" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_fire" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_narcotics" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_asphyxiation_plus_gas" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_explosives" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_poison_no_gas" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_pushed" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_other_gun" invalidValueTreatment="asIs"/>
+      <MiningField name="Solved" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="No" recordCount="380438.0">
+      <True/>
+      <ScoreDistribution value="No" recordCount="190219.0"/>
+      <ScoreDistribution value="Yes" recordCount="190219.0"/>
+      <Node id="1" score="Yes" recordCount="340429.0">
+        <SimplePredicate field="weapon_firearm" operator="lessOrEqual" value="0.5"/>
+        <ScoreDistribution value="No" recordCount="162919.0"/>
+        <ScoreDistribution value="Yes" recordCount="177510.0"/>
+        <Node id="13" score="Yes" recordCount="309911.0">
+          <SimplePredicate field="state_new_york" operator="lessOrEqual" value="0.5"/>
+          <ScoreDistribution value="No" recordCount="142879.0"/>
+          <ScoreDistribution value="Yes" recordCount="167032.0"/>
+          <Node id="23" score="Yes" recordCount="12864.0">
+            <SimplePredicate field="VicAge" operator="lessOrEqual" value="-1.2675364062011656"/>
+            <ScoreDistribution value="No" recordCount="2736.0"/>
+            <ScoreDistribution value="Yes" recordCount="10128.0"/>
+          </Node>
+          <Node id="24" score="Yes" recordCount="297047.0">
+            <SimplePredicate field="VicAge" operator="greaterThan" value="-1.2675364062011656"/>
+            <ScoreDistribution value="No" recordCount="140143.0"/>
+            <ScoreDistribution value="Yes" recordCount="156904.0"/>
+            <Node id="27" score="Yes" recordCount="242468.0">
+              <SimplePredicate field="state_california" operator="lessOrEqual" value="0.5"/>
+              <ScoreDistribution value="No" recordCount="108736.0"/>
+              <ScoreDistribution value="Yes" recordCount="133732.0"/>
+              <Node id="45" score="Yes" recordCount="203565.0">
+                <SimplePredicate field="Sheriff" operator="lessOrEqual" value="0.5"/>
+                <ScoreDistribution value="No" recordCount="96641.0"/>
+                <ScoreDistribution value="Yes" recordCount="106924.0"/>
+                <Node id="57" score="Yes" recordCount="86763.0">
+                  <SimplePredicate field="vicRace_black" operator="lessOrEqual" value="0.5"/>
+                  <ScoreDistribution value="No" recordCount="35616.0"/>
+                  <ScoreDistribution value="Yes" recordCount="51147.0"/>
+                  <Node id="59" score="Yes" recordCount="79620.0">
+                    <SimplePredicate field="weapon_other" operator="lessOrEqual" value="0.5"/>
+                    <ScoreDistribution value="No" recordCount="31382.0"/>
+                    <ScoreDistribution value="Yes" recordCount="48238.0"/>
+                    <Node id="68" score="Yes" recordCount="73771.0">
+                      <SimplePredicate field="weapon_blunt_obj" operator="lessOrEqual" value="0.5"/>
+                      <ScoreDistribution value="No" recordCount="28394.0"/>
+                      <ScoreDistribution value="Yes" recordCount="45377.0"/>
+                    </Node>
+                    <Node id="92" score="No" recordCount="5849.0">
+                      <SimplePredicate field="weapon_blunt_obj" operator="greaterThan" value="0.5"/>
+                      <ScoreDistribution value="No" recordCount="2988.0"/>
+                      <ScoreDistribution value="Yes" recordCount="2861.0"/>
+                    </Node>
+                  </Node>
+                  <Node id="93" score="No" recordCount="7143.0">
+                    <SimplePredicate field="weapon_other" operator="greaterThan" value="0.5"/>
+                    <ScoreDistribution value="No" recordCount="4234.0"/>
+                    <ScoreDistribution value="Yes" recordCount="2909.0"/>
+                  </Node>
+                </Node>
+                <Node id="58" score="No" recordCount="116802.0">
+                  <SimplePredicate field="vicRace_black" operator="greaterThan" value="0.5"/>
+                  <ScoreDistribution value="No" recordCount="61025.0"/>
+                  <ScoreDistribution value="Yes" recordCount="55777.0"/>
+                  <Node id="60" score="Yes" recordCount="28658.0">
+                    <SimplePredicate field="Year" operator="lessOrEqual" value="-0.7309782836471896"/>
+                    <ScoreDistribution value="No" recordCount="11245.0"/>
+                    <ScoreDistribution value="Yes" recordCount="17413.0"/>
+                  </Node>
+                  <Node id="67" score="No" recordCount="88144.0">
+                    <SimplePredicate field="Year" operator="greaterThan" value="-0.7309782836471896"/>
+                    <ScoreDistribution value="No" recordCount="49780.0"/>
+                    <ScoreDistribution value="Yes" recordCount="38364.0"/>
+                    <Node id="69" score="No" recordCount="79138.0">
+                      <SimplePredicate field="weapon_knife_etc" operator="lessOrEqual" value="0.5"/>
+                      <ScoreDistribution value="No" recordCount="46629.0"/>
+                      <ScoreDistribution value="Yes" recordCount="32509.0"/>
+                      <Node id="71" score="No" recordCount="70955.0">
+                        <SimplePredicate field="state_illinois" operator="lessOrEqual" value="0.5"/>
+                        <ScoreDistribution value="No" recordCount="40551.0"/>
+                        <ScoreDistribution value="Yes" recordCount="30404.0"/>
+                        <Node id="79" score="No" recordCount="64527.0">
+                          <SimplePredicate field="state_maryland" operator="lessOrEqual" value="0.5"/>
+                          <ScoreDistribution value="No" recordCount="35853.0"/>
+                          <ScoreDistribution value="Yes" recordCount="28674.0"/>
+                          <Node id="95" score="No" recordCount="59275.0">
+                            <SimplePredicate field="state_texas" operator="lessOrEqual" value="0.5"/>
+                            <ScoreDistribution value="No" recordCount="33557.0"/>
+                            <ScoreDistribution value="Yes" recordCount="25718.0"/>
+                            <Node id="96" score="No" recordCount="51252.0">
+                              <SimplePredicate field="vicSex_female" operator="lessOrEqual" value="0.5"/>
+                              <ScoreDistribution value="No" recordCount="29591.0"/>
+                              <ScoreDistribution value="Yes" recordCount="21661.0"/>
+                            </Node>
+                            <Node id="111" score="Yes" recordCount="8023.0">
+                              <SimplePredicate field="vicSex_female" operator="greaterThan" value="0.5"/>
+                              <ScoreDistribution value="No" recordCount="3966.0"/>
+                              <ScoreDistribution value="Yes" recordCount="4057.0"/>
+                            </Node>
+                          </Node>
+                          <Node id="94" score="Yes" recordCount="5252.0">
+                            <SimplePredicate field="state_texas" operator="greaterThan" value="0.5"/>
+                            <ScoreDistribution value="No" recordCount="2296.0"/>
+                            <ScoreDistribution value="Yes" recordCount="2956.0"/>
+                          </Node>
+                        </Node>
+                        <Node id="112" score="No" recordCount="6428.0">
+                          <SimplePredicate field="state_maryland" operator="greaterThan" value="0.5"/>
+                          <ScoreDistribution value="No" recordCount="4698.0"/>
+                          <ScoreDistribution value="Yes" recordCount="1730.0"/>
+                        </Node>
+                      </Node>
+                      <Node id="113" score="No" recordCount="8183.0">
+                        <SimplePredicate field="state_illinois" operator="greaterThan" value="0.5"/>
+                        <ScoreDistribution value="No" recordCount="6078.0"/>
+                        <ScoreDistribution value="Yes" recordCount="2105.0"/>
+                      </Node>
+                    </Node>
+                    <Node id="114" score="Yes" recordCount="9006.0">
+                      <SimplePredicate field="weapon_knife_etc" operator="greaterThan" value="0.5"/>
+                      <ScoreDistribution value="No" recordCount="3151.0"/>
+                      <ScoreDistribution value="Yes" recordCount="5855.0"/>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node id="46" score="Yes" recordCount="38903.0">
+                <SimplePredicate field="Sheriff" operator="greaterThan" value="0.5"/>
+                <ScoreDistribution value="No" recordCount="12095.0"/>
+                <ScoreDistribution value="Yes" recordCount="26808.0"/>
+              </Node>
+            </Node>
+            <Node id="28" score="No" recordCount="54579.0">
+              <SimplePredicate field="state_california" operator="greaterThan" value="0.5"/>
+              <ScoreDistribution value="No" recordCount="31407.0"/>
+              <ScoreDistribution value="Yes" recordCount="23172.0"/>
+              <Node id="29" score="Yes" recordCount="19477.0">
+                <SimplePredicate field="Year" operator="lessOrEqual" value="-0.5005881290858127"/>
+                <ScoreDistribution value="No" recordCount="9737.0"/>
+                <ScoreDistribution value="Yes" recordCount="9740.0"/>
+                <Node id="31" score="Yes" recordCount="14383.0">
+                  <SimplePredicate field="Month" operator="lessOrEqual" value="0.8515414527507108"/>
+                  <ScoreDistribution value="No" recordCount="6971.0"/>
+                  <ScoreDistribution value="Yes" recordCount="7412.0"/>
+                  <Node id="32" score="No" recordCount="7556.0">
+                    <SimplePredicate field="weapon_handgun" operator="lessOrEqual" value="0.5"/>
+                    <ScoreDistribution value="No" recordCount="3807.0"/>
+                    <ScoreDistribution value="Yes" recordCount="3749.0"/>
+                  </Node>
+                  <Node id="33" score="Yes" recordCount="6827.0">
+                    <SimplePredicate field="weapon_handgun" operator="greaterThan" value="0.5"/>
+                    <ScoreDistribution value="No" recordCount="3164.0"/>
+                    <ScoreDistribution value="Yes" recordCount="3663.0"/>
+                  </Node>
+                </Node>
+                <Node id="34" score="No" recordCount="5094.0">
+                  <SimplePredicate field="Month" operator="greaterThan" value="0.8515414527507108"/>
+                  <ScoreDistribution value="No" recordCount="2766.0"/>
+                  <ScoreDistribution value="Yes" recordCount="2328.0"/>
+                </Node>
+              </Node>
+              <Node id="30" score="No" recordCount="35102.0">
+                <SimplePredicate field="Year" operator="greaterThan" value="-0.5005881290858127"/>
+                <ScoreDistribution value="No" recordCount="21670.0"/>
+                <ScoreDistribution value="Yes" recordCount="13432.0"/>
+                <Node id="36" score="Yes" recordCount="10955.0">
+                  <SimplePredicate field="weapon_handgun" operator="lessOrEqual" value="0.5"/>
+                  <ScoreDistribution value="No" recordCount="5458.0"/>
+                  <ScoreDistribution value="Yes" recordCount="5497.0"/>
+                  <Node id="37" score="No" recordCount="5211.0">
+                    <SimplePredicate field="Year" operator="lessOrEqual" value="0.3441757709725408"/>
+                    <ScoreDistribution value="No" recordCount="2773.0"/>
+                    <ScoreDistribution value="Yes" recordCount="2438.0"/>
+                  </Node>
+                  <Node id="38" score="Yes" recordCount="5744.0">
+                    <SimplePredicate field="Year" operator="greaterThan" value="0.3441757709725408"/>
+                    <ScoreDistribution value="No" recordCount="2685.0"/>
+                    <ScoreDistribution value="Yes" recordCount="3059.0"/>
+                  </Node>
+                </Node>
+                <Node id="35" score="No" recordCount="24147.0">
+                  <SimplePredicate field="weapon_handgun" operator="greaterThan" value="0.5"/>
+                  <ScoreDistribution value="No" recordCount="16212.0"/>
+                  <ScoreDistribution value="Yes" recordCount="7935.0"/>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </Node>
+        <Node id="14" score="No" recordCount="30518.0">
+          <SimplePredicate field="state_new_york" operator="greaterThan" value="0.5"/>
+          <ScoreDistribution value="No" recordCount="20040.0"/>
+          <ScoreDistribution value="Yes" recordCount="10478.0"/>
+        </Node>
+      </Node>
+      <Node id="2" score="No" recordCount="40009.0">
+        <SimplePredicate field="weapon_firearm" operator="greaterThan" value="0.5"/>
+        <ScoreDistribution value="No" recordCount="27300.0"/>
+        <ScoreDistribution value="Yes" recordCount="12709.0"/>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>

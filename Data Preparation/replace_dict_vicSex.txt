@@ -1,0 +1,3 @@
+vicSex_male; Male
+vicSex_female;	Female
+vicSex_unknown;	Unknown

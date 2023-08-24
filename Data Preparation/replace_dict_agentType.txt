@@ -1,0 +1,8 @@
+agenttype_sheriff; sheriff
+agenttype_municipal ;Municipal police
+agenttype_special ;Special police	
+agenttype_primaryState ;Primary state LE	
+agenttype_county ;County police	
+agenttype_tribal ;Tribal	
+agenttype_4 ;4	
+agenttype_regional ;Regional police

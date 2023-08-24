@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="BoB">
+    <Application name="KNIME" version="4.4.2"/>
+  </Header>
+  <DataDictionary numberOfFields="89">
+    <DataField name="ID" optype="categorical" dataType="string"/>
+    <DataField name="Solved" optype="categorical" dataType="string">
+      <Value value="No"/>
+      <Value value="Yes"/>
+    </DataField>
+    <DataField name="Year" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-1.614140542799106" rightMargin="1.7649150574343366"/>
+    </DataField>
+    <DataField name="Month" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-1.6390392045707456" rightMargin="1.5840651754923156"/>
+    </DataField>
+    <DataField name="VicAge" optype="continuous" dataType="double">
+      <Interval closure="closedClosed" leftMargin="-2.0415009200724894" rightMargin="4.088298029788396"/>
+    </DataField>
+    <DataField name="state_alabama" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_alaska" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_arizona" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_arkansas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_california" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_colorado" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_conneticut" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_delaware" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_dist_columbia" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_florida" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_georgia" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_hawaii" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_idaho" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_illinois" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_indiana" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_iowa" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_kensas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_kentucky" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_louisiana" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_maine" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_maryland" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_massachusetts" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_michigan" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_minnesota" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_mississippi" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_missouri" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_montana" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_nebraska" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_nevada" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_hampshire" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_jersey" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_mexico" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_new_york" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_north_carolina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_north_Dakota" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_ohio" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_oklahoma" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_oregon" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_pennsylvania" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_rhodes_island" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_south_carolina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_south_dakota" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_tennesse" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_texas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_utah" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_vermont" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_virgina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_washington" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_west_virgina" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_wisconsin" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="state_wyoming" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="Sheriff" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_municipal" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_special" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_primaryState" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_county" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_tribal" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="agenttype_regional" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicSex_male" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicSex_female" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicSex_unknown" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_black" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_white" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_asian" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_native" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_unknown" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="vicRace_hawaiian_or_pacific" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_other" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_handgun" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_shotgun" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_knife_etc" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_blunt_obj" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_rifle" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_personal_weapon" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_firearm" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_drowning" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_strangulation" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_fire" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_narcotics" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_asphyxiation_plus_gas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_explosives" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_poison_no_gas" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_pushed" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+    <DataField name="weapon_other_gun" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+  </DataDictionary>
+  <GeneralRegressionModel modelType="multinomialLogistic" functionName="classification" algorithmName="LogisticRegression" modelName="KNIME Logistic Regression" targetReferenceCategory="Yes">
+    <MiningSchema>
+      <MiningField name="Year" invalidValueTreatment="asIs"/>
+      <MiningField name="Month" invalidValueTreatment="asIs"/>
+      <MiningField name="VicAge" invalidValueTreatment="asIs"/>
+      <MiningField name="state_alabama" invalidValueTreatment="asIs"/>
+      <MiningField name="state_alaska" invalidValueTreatment="asIs"/>
+      <MiningField name="state_arizona" invalidValueTreatment="asIs"/>
+      <MiningField name="state_arkansas" invalidValueTreatment="asIs"/>
+      <MiningField name="state_california" invalidValueTreatment="asIs"/>
+      <MiningField name="state_colorado" invalidValueTreatment="asIs"/>
+      <MiningField name="state_conneticut" invalidValueTreatment="asIs"/>
+      <MiningField name="state_delaware" invalidValueTreatment="asIs"/>
+      <MiningField name="state_dist_columbia" invalidValueTreatment="asIs"/>
+      <MiningField name="state_florida" invalidValueTreatment="asIs"/>
+      <MiningField name="state_georgia" invalidValueTreatment="asIs"/>
+      <MiningField name="state_hawaii" invalidValueTreatment="asIs"/>
+      <MiningField name="state_idaho" invalidValueTreatment="asIs"/>
+      <MiningField name="state_illinois" invalidValueTreatment="asIs"/>
+      <MiningField name="state_indiana" invalidValueTreatment="asIs"/>
+      <MiningField name="state_iowa" invalidValueTreatment="asIs"/>
+      <MiningField name="state_kensas" invalidValueTreatment="asIs"/>
+      <MiningField name="state_kentucky" invalidValueTreatment="asIs"/>
+      <MiningField name="state_louisiana" invalidValueTreatment="asIs"/>
+      <MiningField name="state_maine" invalidValueTreatment="asIs"/>
+      <MiningField name="state_maryland" invalidValueTreatment="asIs"/>
+      <MiningField name="state_massachusetts" invalidValueTreatment="asIs"/>
+      <MiningField name="state_michigan" invalidValueTreatment="asIs"/>
+      <MiningField name="state_minnesota" invalidValueTreatment="asIs"/>
+      <MiningField name="state_mississippi" invalidValueTreatment="asIs"/>
+      <MiningField name="state_missouri" invalidValueTreatment="asIs"/>
+      <MiningField name="state_montana" invalidValueTreatment="asIs"/>
+      <MiningField name="state_nebraska" invalidValueTreatment="asIs"/>
+      <MiningField name="state_nevada" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_hampshire" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_jersey" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_mexico" invalidValueTreatment="asIs"/>
+      <MiningField name="state_new_york" invalidValueTreatment="asIs"/>
+      <MiningField name="state_north_carolina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_north_Dakota" invalidValueTreatment="asIs"/>
+      <MiningField name="state_ohio" invalidValueTreatment="asIs"/>
+      <MiningField name="state_oklahoma" invalidValueTreatment="asIs"/>
+      <MiningField name="state_oregon" invalidValueTreatment="asIs"/>
+      <MiningField name="state_pennsylvania" invalidValueTreatment="asIs"/>
+      <MiningField name="state_rhodes_island" invalidValueTreatment="asIs"/>
+      <MiningField name="state_south_carolina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_south_dakota" invalidValueTreatment="asIs"/>
+      <MiningField name="state_tennesse" invalidValueTreatment="asIs"/>
+      <MiningField name="state_texas" invalidValueTreatment="asIs"/>
+      <MiningField name="state_utah" invalidValueTreatment="asIs"/>
+      <MiningField name="state_vermont" invalidValueTreatment="asIs"/>
+      <MiningField name="state_virgina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_washington" invalidValueTreatment="asIs"/>
+      <MiningField name="state_west_virgina" invalidValueTreatment="asIs"/>
+      <MiningField name="state_wisconsin" invalidValueTreatment="asIs"/>
+      <MiningField name="state_wyoming" invalidValueTreatment="asIs"/>
+      <MiningField name="Sheriff" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_municipal" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_special" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_primaryState" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_county" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_tribal" invalidValueTreatment="asIs"/>
+      <MiningField name="agenttype_regional" invalidValueTreatment="asIs"/>
+      <MiningField name="vicSex_male" invalidValueTreatment="asIs"/>
+      <MiningField name="vicSex_female" invalidValueTreatment="asIs"/>
+      <MiningField name="vicSex_unknown" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_black" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_white" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_asian" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_native" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_unknown" invalidValueTreatment="asIs"/>
+      <MiningField name="vicRace_hawaiian_or_pacific" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_other" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_handgun" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_shotgun" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_knife_etc" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_blunt_obj" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_rifle" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_personal_weapon" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_firearm" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_drowning" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_strangulation" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_fire" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_narcotics" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_asphyxiation_plus_gas" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_explosives" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_poison_no_gas" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_pushed" invalidValueTreatment="asIs"/>
+      <MiningField name="weapon_other_gun" invalidValueTreatment="asIs"/>
+      <MiningField name="Solved" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <ParameterList>
+      <Parameter name="p0" label="Intercept"/>
+      <Parameter name="p1" label="Year"/>
+      <Parameter name="p2" label="Month"/>
+      <Parameter name="p3" label="VicAge"/>
+      <Parameter name="p4" label="state_alabama"/>
+      <Parameter name="p5" label="state_alaska"/>
+      <Parameter name="p6" label="state_arizona"/>
+      <Parameter name="p7" label="state_arkansas"/>
+      <Parameter name="p8" label="state_california"/>
+      <Parameter name="p9" label="state_colorado"/>
+      <Parameter name="p10" label="state_conneticut"/>
+      <Parameter name="p11" label="state_delaware"/>
+      <Parameter name="p12" label="state_dist_columbia"/>
+      <Parameter name="p13" label="state_florida"/>
+      <Parameter name="p14" label="state_georgia"/>
+      <Parameter name="p15" label="state_hawaii"/>
+      <Parameter name="p16" label="state_idaho"/>
+      <Parameter name="p17" label="state_illinois"/>
+      <Parameter name="p18" label="state_indiana"/>
+      <Parameter name="p19" label="state_iowa"/>
+      <Parameter name="p20" label="state_kensas"/>
+      <Parameter name="p21" label="state_kentucky"/>
+      <Parameter name="p22" label="state_louisiana"/>
+      <Parameter name="p23" label="state_maine"/>
+      <Parameter name="p24" label="state_maryland"/>
+      <Parameter name="p25" label="state_massachusetts"/>
+      <Parameter name="p26" label="state_michigan"/>
+      <Parameter name="p27" label="state_minnesota"/>
+      <Parameter name="p28" label="state_mississippi"/>
+      <Parameter name="p29" label="state_missouri"/>
+      <Parameter name="p30" label="state_montana"/>
+      <Parameter name="p31" label="state_nebraska"/>
+      <Parameter name="p32" label="state_nevada"/>
+      <Parameter name="p33" label="state_new_hampshire"/>
+      <Parameter name="p34" label="state_new_jersey"/>
+      <Parameter name="p35" label="state_new_mexico"/>
+      <Parameter name="p36" label="state_new_york"/>
+      <Parameter name="p37" label="state_north_carolina"/>
+      <Parameter name="p38" label="state_north_Dakota"/>
+      <Parameter name="p39" label="state_ohio"/>
+      <Parameter name="p40" label="state_oklahoma"/>
+      <Parameter name="p41" label="state_oregon"/>
+      <Parameter name="p42" label="state_pennsylvania"/>
+      <Parameter name="p43" label="state_rhodes_island"/>
+      <Parameter name="p44" label="state_south_carolina"/>
+      <Parameter name="p45" label="state_south_dakota"/>
+      <Parameter name="p46" label="state_tennesse"/>
+      <Parameter name="p47" label="state_texas"/>
+      <Parameter name="p48" label="state_utah"/>
+      <Parameter name="p49" label="state_vermont"/>
+      <Parameter name="p50" label="state_virgina"/>
+      <Parameter name="p51" label="state_washington"/>
+      <Parameter name="p52" label="state_west_virgina"/>
+      <Parameter name="p53" label="state_wisconsin"/>
+      <Parameter name="p54" label="state_wyoming"/>
+      <Parameter name="p55" label="Sheriff"/>
+      <Parameter name="p56" label="agenttype_municipal"/>
+      <Parameter name="p57" label="agenttype_special"/>
+      <Parameter name="p58" label="agenttype_primaryState"/>
+      <Parameter name="p59" label="agenttype_county"/>
+      <Parameter name="p60" label="agenttype_tribal"/>
+      <Parameter name="p61" label="agenttype_regional"/>
+      <Parameter name="p62" label="vicSex_male"/>
+      <Parameter name="p63" label="vicSex_female"/>
+      <Parameter name="p64" label="vicSex_unknown"/>
+      <Parameter name="p65" label="vicRace_black"/>
+      <Parameter name="p66" label="vicRace_white"/>
+      <Parameter name="p67" label="vicRace_asian"/>
+      <Parameter name="p68" label="vicRace_native"/>
+      <Parameter name="p69" label="vicRace_unknown"/>
+      <Parameter name="p70" label="vicRace_hawaiian_or_pacific"/>
+      <Parameter name="p71" label="weapon_other"/>
+      <Parameter name="p72" label="weapon_handgun"/>
+      <Parameter name="p73" label="weapon_shotgun"/>
+      <Parameter name="p74" label="weapon_knife_etc"/>
+      <Parameter name="p75" label="weapon_blunt_obj"/>
+      <Parameter name="p76" label="weapon_rifle"/>
+      <Parameter name="p77" label="weapon_personal_weapon"/>
+      <Parameter name="p78" label="weapon_firearm"/>
+      <Parameter name="p79" label="weapon_drowning"/>
+      <Parameter name="p80" label="weapon_strangulation"/>
+      <Parameter name="p81" label="weapon_fire"/>
+      <Parameter name="p82" label="weapon_narcotics"/>
+      <Parameter name="p83" label="weapon_asphyxiation_plus_gas"/>
+      <Parameter name="p84" label="weapon_explosives"/>
+      <Parameter name="p85" label="weapon_poison_no_gas"/>
+      <Parameter name="p86" label="weapon_pushed"/>
+      <Parameter name="p87" label="weapon_other_gun"/>
+    </ParameterList>
+    <FactorList/>
+    <CovariateList>
+      <Predictor name="Year"/>
+      <Predictor name="Month"/>
+      <Predictor name="VicAge"/>
+      <Predictor name="state_alabama"/>
+      <Predictor name="state_alaska"/>
+      <Predictor name="state_arizona"/>
+      <Predictor name="state_arkansas"/>
+      <Predictor name="state_california"/>
+      <Predictor name="state_colorado"/>
+      <Predictor name="state_conneticut"/>
+      <Predictor name="state_delaware"/>
+      <Predictor name="state_dist_columbia"/>
+      <Predictor name="state_florida"/>
+      <Predictor name="state_georgia"/>
+      <Predictor name="state_hawaii"/>
+      <Predictor name="state_idaho"/>
+      <Predictor name="state_illinois"/>
+      <Predictor name="state_indiana"/>
+      <Predictor name="state_iowa"/>
+      <Predictor name="state_kensas"/>
+      <Predictor name="state_kentucky"/>
+      <Predictor name="state_louisiana"/>
+      <Predictor name="state_maine"/>
+      <Predictor name="state_maryland"/>
+      <Predictor name="state_massachusetts"/>
+      <Predictor name="state_michigan"/>
+      <Predictor name="state_minnesota"/>
+      <Predictor name="state_mississippi"/>
+      <Predictor name="state_missouri"/>
+      <Predictor name="state_montana"/>
+      <Predictor name="state_nebraska"/>
+      <Predictor name="state_nevada"/>
+      <Predictor name="state_new_hampshire"/>
+      <Predictor name="state_new_jersey"/>
+      <Predictor name="state_new_mexico"/>
+      <Predictor name="state_new_york"/>
+      <Predictor name="state_north_carolina"/>
+      <Predictor name="state_north_Dakota"/>
+      <Predictor name="state_ohio"/>
+      <Predictor name="state_oklahoma"/>
+      <Predictor name="state_oregon"/>
+      <Predictor name="state_pennsylvania"/>
+      <Predictor name="state_rhodes_island"/>
+      <Predictor name="state_south_carolina"/>
+      <Predictor name="state_south_dakota"/>
+      <Predictor name="state_tennesse"/>
+      <Predictor name="state_texas"/>
+      <Predictor name="state_utah"/>
+      <Predictor name="state_vermont"/>
+      <Predictor name="state_virgina"/>
+      <Predictor name="state_washington"/>
+      <Predictor name="state_west_virgina"/>
+      <Predictor name="state_wisconsin"/>
+      <Predictor name="state_wyoming"/>
+      <Predictor name="Sheriff"/>
+      <Predictor name="agenttype_municipal"/>
+      <Predictor name="agenttype_special"/>
+      <Predictor name="agenttype_primaryState"/>
+      <Predictor name="agenttype_county"/>
+      <Predictor name="agenttype_tribal"/>
+      <Predictor name="agenttype_regional"/>
+      <Predictor name="vicSex_male"/>
+      <Predictor name="vicSex_female"/>
+      <Predictor name="vicSex_unknown"/>
+      <Predictor name="vicRace_black"/>
+      <Predictor name="vicRace_white"/>
+      <Predictor name="vicRace_asian"/>
+      <Predictor name="vicRace_native"/>
+      <Predictor name="vicRace_unknown"/>
+      <Predictor name="vicRace_hawaiian_or_pacific"/>
+      <Predictor name="weapon_other"/>
+      <Predictor name="weapon_handgun"/>
+      <Predictor name="weapon_shotgun"/>
+      <Predictor name="weapon_knife_etc"/>
+      <Predictor name="weapon_blunt_obj"/>
+      <Predictor name="weapon_rifle"/>
+      <Predictor name="weapon_personal_weapon"/>
+      <Predictor name="weapon_firearm"/>
+      <Predictor name="weapon_drowning"/>
+      <Predictor name="weapon_strangulation"/>
+      <Predictor name="weapon_fire"/>
+      <Predictor name="weapon_narcotics"/>
+      <Predictor name="weapon_asphyxiation_plus_gas"/>
+      <Predictor name="weapon_explosives"/>
+      <Predictor name="weapon_poison_no_gas"/>
+      <Predictor name="weapon_pushed"/>
+      <Predictor name="weapon_other_gun"/>
+    </CovariateList>
+    <PPMatrix>
+      <PPCell value="1" predictorName="Year" parameterName="p1"/>
+      <PPCell value="1" predictorName="Month" parameterName="p2"/>
+      <PPCell value="1" predictorName="VicAge" parameterName="p3"/>
+      <PPCell value="1" predictorName="state_alabama" parameterName="p4"/>
+      <PPCell value="1" predictorName="state_alaska" parameterName="p5"/>
+      <PPCell value="1" predictorName="state_arizona" parameterName="p6"/>
+      <PPCell value="1" predictorName="state_arkansas" parameterName="p7"/>
+      <PPCell value="1" predictorName="state_california" parameterName="p8"/>
+      <PPCell value="1" predictorName="state_colorado" parameterName="p9"/>
+      <PPCell value="1" predictorName="state_conneticut" parameterName="p10"/>
+      <PPCell value="1" predictorName="state_delaware" parameterName="p11"/>
+      <PPCell value="1" predictorName="state_dist_columbia" parameterName="p12"/>
+      <PPCell value="1" predictorName="state_florida" parameterName="p13"/>
+      <PPCell value="1" predictorName="state_georgia" parameterName="p14"/>
+      <PPCell value="1" predictorName="state_hawaii" parameterName="p15"/>
+      <PPCell value="1" predictorName="state_idaho" parameterName="p16"/>
+      <PPCell value="1" predictorName="state_illinois" parameterName="p17"/>
+      <PPCell value="1" predictorName="state_indiana" parameterName="p18"/>
+      <PPCell value="1" predictorName="state_iowa" parameterName="p19"/>
+      <PPCell value="1" predictorName="state_kensas" parameterName="p20"/>
+      <PPCell value="1" predictorName="state_kentucky" parameterName="p21"/>
+      <PPCell value="1" predictorName="state_louisiana" parameterName="p22"/>
+      <PPCell value="1" predictorName="state_maine" parameterName="p23"/>
+      <PPCell value="1" predictorName="state_maryland" parameterName="p24"/>
+      <PPCell value="1" predictorName="state_massachusetts" parameterName="p25"/>
+      <PPCell value="1" predictorName="state_michigan" parameterName="p26"/>
+      <PPCell value="1" predictorName="state_minnesota" parameterName="p27"/>
+      <PPCell value="1" predictorName="state_mississippi" parameterName="p28"/>
+      <PPCell value="1" predictorName="state_missouri" parameterName="p29"/>
+      <PPCell value="1" predictorName="state_montana" parameterName="p30"/>
+      <PPCell value="1" predictorName="state_nebraska" parameterName="p31"/>
+      <PPCell value="1" predictorName="state_nevada" parameterName="p32"/>
+      <PPCell value="1" predictorName="state_new_hampshire" parameterName="p33"/>
+      <PPCell value="1" predictorName="state_new_jersey" parameterName="p34"/>
+      <PPCell value="1" predictorName="state_new_mexico" parameterName="p35"/>
+      <PPCell value="1" predictorName="state_new_york" parameterName="p36"/>
+      <PPCell value="1" predictorName="state_north_carolina" parameterName="p37"/>
+      <PPCell value="1" predictorName="state_north_Dakota" parameterName="p38"/>
+      <PPCell value="1" predictorName="state_ohio" parameterName="p39"/>
+      <PPCell value="1" predictorName="state_oklahoma" parameterName="p40"/>
+      <PPCell value="1" predictorName="state_oregon" parameterName="p41"/>
+      <PPCell value="1" predictorName="state_pennsylvania" parameterName="p42"/>
+      <PPCell value="1" predictorName="state_rhodes_island" parameterName="p43"/>
+      <PPCell value="1" predictorName="state_south_carolina" parameterName="p44"/>
+      <PPCell value="1" predictorName="state_south_dakota" parameterName="p45"/>
+      <PPCell value="1" predictorName="state_tennesse" parameterName="p46"/>
+      <PPCell value="1" predictorName="state_texas" parameterName="p47"/>
+      <PPCell value="1" predictorName="state_utah" parameterName="p48"/>
+      <PPCell value="1" predictorName="state_vermont" parameterName="p49"/>
+      <PPCell value="1" predictorName="state_virgina" parameterName="p50"/>
+      <PPCell value="1" predictorName="state_washington" parameterName="p51"/>
+      <PPCell value="1" predictorName="state_west_virgina" parameterName="p52"/>
+      <PPCell value="1" predictorName="state_wisconsin" parameterName="p53"/>
+      <PPCell value="1" predictorName="state_wyoming" parameterName="p54"/>
+      <PPCell value="1" predictorName="Sheriff" parameterName="p55"/>
+      <PPCell value="1" predictorName="agenttype_municipal" parameterName="p56"/>
+      <PPCell value="1" predictorName="agenttype_special" parameterName="p57"/>
+      <PPCell value="1" predictorName="agenttype_primaryState" parameterName="p58"/>
+      <PPCell value="1" predictorName="agenttype_county" parameterName="p59"/>
+      <PPCell value="1" predictorName="agenttype_tribal" parameterName="p60"/>
+      <PPCell value="1" predictorName="agenttype_regional" parameterName="p61"/>
+      <PPCell value="1" predictorName="vicSex_male" parameterName="p62"/>
+      <PPCell value="1" predictorName="vicSex_female" parameterName="p63"/>
+      <PPCell value="1" predictorName="vicSex_unknown" parameterName="p64"/>
+      <PPCell value="1" predictorName="vicRace_black" parameterName="p65"/>
+      <PPCell value="1" predictorName="vicRace_white" parameterName="p66"/>
+      <PPCell value="1" predictorName="vicRace_asian" parameterName="p67"/>
+      <PPCell value="1" predictorName="vicRace_native" parameterName="p68"/>
+      <PPCell value="1" predictorName="vicRace_unknown" parameterName="p69"/>
+      <PPCell value="1" predictorName="vicRace_hawaiian_or_pacific" parameterName="p70"/>
+      <PPCell value="1" predictorName="weapon_other" parameterName="p71"/>
+      <PPCell value="1" predictorName="weapon_handgun" parameterName="p72"/>
+      <PPCell value="1" predictorName="weapon_shotgun" parameterName="p73"/>
+      <PPCell value="1" predictorName="weapon_knife_etc" parameterName="p74"/>
+      <PPCell value="1" predictorName="weapon_blunt_obj" parameterName="p75"/>
+      <PPCell value="1" predictorName="weapon_rifle" parameterName="p76"/>
+      <PPCell value="1" predictorName="weapon_personal_weapon" parameterName="p77"/>
+      <PPCell value="1" predictorName="weapon_firearm" parameterName="p78"/>
+      <PPCell value="1" predictorName="weapon_drowning" parameterName="p79"/>
+      <PPCell value="1" predictorName="weapon_strangulation" parameterName="p80"/>
+      <PPCell value="1" predictorName="weapon_fire" parameterName="p81"/>
+      <PPCell value="1" predictorName="weapon_narcotics" parameterName="p82"/>
+      <PPCell value="1" predictorName="weapon_asphyxiation_plus_gas" parameterName="p83"/>
+      <PPCell value="1" predictorName="weapon_explosives" parameterName="p84"/>
+      <PPCell value="1" predictorName="weapon_poison_no_gas" parameterName="p85"/>
+      <PPCell value="1" predictorName="weapon_pushed" parameterName="p86"/>
+      <PPCell value="1" predictorName="weapon_other_gun" parameterName="p87"/>
+    </PPMatrix>
+    <ParamMatrix>
+      <PCell targetCategory="No" parameterName="p0" beta="-0.39907524251514837" df="1"/>
+      <PCell targetCategory="No" parameterName="p1" beta="0.03974335029086245" df="1"/>
+      <PCell targetCategory="No" parameterName="p2" beta="0.06872518125545514" df="1"/>
+      <PCell targetCategory="No" parameterName="p3" beta="0.07813678477148465" df="1"/>
+      <PCell targetCategory="No" parameterName="p4" beta="-0.05562839486006113" df="1"/>
+      <PCell targetCategory="No" parameterName="p5" beta="0.009195806894819351" df="1"/>
+      <PCell targetCategory="No" parameterName="p6" beta="0.3161668108962555" df="1"/>
+      <PCell targetCategory="No" parameterName="p7" beta="-0.5083618831979058" df="1"/>
+      <PCell targetCategory="No" parameterName="p8" beta="0.8010173378657833" df="1"/>
+      <PCell targetCategory="No" parameterName="p9" beta="-0.14721339137414038" df="1"/>
+      <PCell targetCategory="No" parameterName="p10" beta="0.4776629704526737" df="1"/>
+      <PCell targetCategory="No" parameterName="p11" beta="0.03797820445069151" df="1"/>
+      <PCell targetCategory="No" parameterName="p12" beta="1.5242409430778847" df="1"/>
+      <PCell targetCategory="No" parameterName="p13" beta="0.18204450177583587" df="1"/>
+      <PCell targetCategory="No" parameterName="p14" beta="0.2218857814503458" df="1"/>
+      <PCell targetCategory="No" parameterName="p15" beta="0.4254009332984512" df="1"/>
+      <PCell targetCategory="No" parameterName="p16" beta="-0.8477771646192691" df="1"/>
+      <PCell targetCategory="No" parameterName="p17" beta="0.7391231295718547" df="1"/>
+      <PCell targetCategory="No" parameterName="p18" beta="0.45296148428311167" df="1"/>
+      <PCell targetCategory="No" parameterName="p19" beta="-0.43103290785865894" df="1"/>
+      <PCell targetCategory="No" parameterName="p20" beta="-0.2309271722369755" df="1"/>
+      <PCell targetCategory="No" parameterName="p21" beta="0.1648883779868814" df="1"/>
+      <PCell targetCategory="No" parameterName="p22" beta="0.3149566475462828" df="1"/>
+      <PCell targetCategory="No" parameterName="p23" beta="-0.6032651164995342" df="1"/>
+      <PCell targetCategory="No" parameterName="p24" beta="0.8660502019894585" df="1"/>
+      <PCell targetCategory="No" parameterName="p25" beta="0.5916507594729971" df="1"/>
+      <PCell targetCategory="No" parameterName="p26" beta="0.36402196097636474" df="1"/>
+      <PCell targetCategory="No" parameterName="p27" beta="-0.17680633823093986" df="1"/>
+      <PCell targetCategory="No" parameterName="p28" beta="-0.4379281938803957" df="1"/>
+      <PCell targetCategory="No" parameterName="p29" beta="0.4466056998333643" df="1"/>
+      <PCell targetCategory="No" parameterName="p30" beta="-0.8879897520059913" df="1"/>
+      <PCell targetCategory="No" parameterName="p31" beta="-0.08200333651883805" df="1"/>
+      <PCell targetCategory="No" parameterName="p32" beta="0.3257336314211417" df="1"/>
+      <PCell targetCategory="No" parameterName="p33" beta="-0.13577949609137152" df="1"/>
+      <PCell targetCategory="No" parameterName="p34" beta="0.6547537024723123" df="1"/>
+      <PCell targetCategory="No" parameterName="p35" beta="0.23980889104755995" df="1"/>
+      <PCell targetCategory="No" parameterName="p36" beta="1.0907809910752289" df="1"/>
+      <PCell targetCategory="No" parameterName="p37" beta="-0.13950676107130847" df="1"/>
+      <PCell targetCategory="No" parameterName="p38" beta="-1.5091337433411856" df="1"/>
+      <PCell targetCategory="No" parameterName="p39" beta="0.2246038199701585" df="1"/>
+      <PCell targetCategory="No" parameterName="p40" beta="-0.2823681397231248" df="1"/>
+      <PCell targetCategory="No" parameterName="p41" beta="-0.1758581569942654" df="1"/>
+      <PCell targetCategory="No" parameterName="p42" beta="0.23966358491790232" df="1"/>
+      <PCell targetCategory="No" parameterName="p43" beta="0.45181558209633815" df="1"/>
+      <PCell targetCategory="No" parameterName="p44" beta="-0.8708218305176897" df="1"/>
+      <PCell targetCategory="No" parameterName="p45" beta="-1.0829832528936683" df="1"/>
+      <PCell targetCategory="No" parameterName="p46" beta="-0.48580923894597133" df="1"/>
+      <PCell targetCategory="No" parameterName="p47" beta="0.02879768194603893" df="1"/>
+      <PCell targetCategory="No" parameterName="p48" beta="-0.49791717704484645" df="1"/>
+      <PCell targetCategory="No" parameterName="p49" beta="-0.24405874267594993" df="1"/>
+      <PCell targetCategory="No" parameterName="p50" beta="-0.1784768602544316" df="1"/>
+      <PCell targetCategory="No" parameterName="p51" beta="0.08582423553641177" df="1"/>
+      <PCell targetCategory="No" parameterName="p52" beta="-0.5523073186054935" df="1"/>
+      <PCell targetCategory="No" parameterName="p53" beta="-0.39968339739423747" df="1"/>
+      <PCell targetCategory="No" parameterName="p54" beta="-0.7130711479868906" df="1"/>
+      <PCell targetCategory="No" parameterName="p55" beta="-0.10379110214111671" df="1"/>
+      <PCell targetCategory="No" parameterName="p56" beta="0.17092433506707042" df="1"/>
+      <PCell targetCategory="No" parameterName="p57" beta="-0.07604014155852912" df="1"/>
+      <PCell targetCategory="No" parameterName="p58" beta="-0.3887054891722519" df="1"/>
+      <PCell targetCategory="No" parameterName="p59" beta="0.04528187583389219" df="1"/>
+      <PCell targetCategory="No" parameterName="p60" beta="0.05559317769199982" df="1"/>
+      <PCell targetCategory="No" parameterName="p61" beta="-0.10233789824249205" df="1"/>
+      <PCell targetCategory="No" parameterName="p62" beta="-0.20528041607253208" df="1"/>
+      <PCell targetCategory="No" parameterName="p63" beta="-0.5579645618401037" df="1"/>
+      <PCell targetCategory="No" parameterName="p64" beta="0.36416973540809344" df="1"/>
+      <PCell targetCategory="No" parameterName="p65" beta="0.2612531453381418" df="1"/>
+      <PCell targetCategory="No" parameterName="p66" beta="0.012532371119263358" df="1"/>
+      <PCell targetCategory="No" parameterName="p67" beta="0.028385230414674886" df="1"/>
+      <PCell targetCategory="No" parameterName="p68" beta="0.048466135787774374" df="1"/>
+      <PCell targetCategory="No" parameterName="p69" beta="0.1295498924536268" df="1"/>
+      <PCell targetCategory="No" parameterName="p70" beta="-0.8792620176268159" df="1"/>
+      <PCell targetCategory="No" parameterName="p71" beta="0.7935490165633661" df="1"/>
+      <PCell targetCategory="No" parameterName="p72" beta="0.06521794490183822" df="1"/>
+      <PCell targetCategory="No" parameterName="p73" beta="-0.6596029540936283" df="1"/>
+      <PCell targetCategory="No" parameterName="p74" beta="-0.44065808270502155" df="1"/>
+      <PCell targetCategory="No" parameterName="p75" beta="0.15296356645585094" df="1"/>
+      <PCell targetCategory="No" parameterName="p76" beta="-0.6547590195554485" df="1"/>
+      <PCell targetCategory="No" parameterName="p77" beta="-0.5726523047354556" df="1"/>
+      <PCell targetCategory="No" parameterName="p78" beta="0.8453610524401991" df="1"/>
+      <PCell targetCategory="No" parameterName="p79" beta="-0.21294938180002018" df="1"/>
+      <PCell targetCategory="No" parameterName="p80" beta="0.9502336087738725" df="1"/>
+      <PCell targetCategory="No" parameterName="p81" beta="0.24443207143819035" df="1"/>
+      <PCell targetCategory="No" parameterName="p82" beta="-0.631830771422789" df="1"/>
+      <PCell targetCategory="No" parameterName="p83" beta="0.033944838447355775" df="1"/>
+      <PCell targetCategory="No" parameterName="p84" beta="0.3830229311653045" df="1"/>
+      <PCell targetCategory="No" parameterName="p85" beta="-0.4554601623532776" df="1"/>
+      <PCell targetCategory="No" parameterName="p86" beta="-1.1580210573317444" df="1"/>
+      <PCell targetCategory="No" parameterName="p87" beta="0.918133461300513" df="1"/>
+    </ParamMatrix>
+  </GeneralRegressionModel>
+</PMML>
