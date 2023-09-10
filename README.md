@@ -16,6 +16,6 @@ Texas seems to have (compared to states with similar number of murders) a relati
 
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/329676f7-a519-492f-9551-b803a77c91c0" width="90%"/></p>
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/d75fa689-2e69-49f9-8cd5-b5278f5dbdb7" width="90%"/></p>
-<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6162677e-5d66-4651-a593-66e1dedea622" width="70%"/></p>
+<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6162677e-5d66-4651-a593-66e1dedea622" width="50%"/></p>
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/62454448-65bc-4e2a-986d-6113b08309e5" width="90%"/></p>
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6bd72bca-1c49-404a-b13a-f4f61b416146" width="90%"/></p>
