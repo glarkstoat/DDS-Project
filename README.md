@@ -24,3 +24,10 @@ Texas seems to have (compared to states with similar number of murders) a relati
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6162677e-5d66-4651-a593-66e1dedea622" width="40%"/></p>
 
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6bd72bca-1c49-404a-b13a-f4f61b416146" width="90%"/></p>
+
+
+## Knime Workflow
+
+<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/9f36c066-d536-4d13-a06e-2f2224cdbe4d" width="90%"/></p>
+
+
