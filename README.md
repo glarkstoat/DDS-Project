@@ -14,8 +14,8 @@ Most of the victims were around 20 years old. Distribution decays exponentially 
 Texas seems to have (compared to states with similar number of murders) a relatively high murder clearance rate while New York has a clearance rate of only about 50%. District of Columbia has an even worse clearance rate of only about 25% over the last 45 years. Looking at the distribution of sex of victims on a state-by-state basis reveals no obvious cases where disproportionately many women or men have been murdered. In almost all states the proportion of male vs. female victims is roughly 80/20. 
 
 
-<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/329676f7-a519-492f-9551-b803a77c91c0" width="98%"/></p>
-<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/d75fa689-2e69-49f9-8cd5-b5278f5dbdb7" width="98%"/></p>
-<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6162677e-5d66-4651-a593-66e1dedea622" width="98%"/></p>
+<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/329676f7-a519-492f-9551-b803a77c91c0" width="80%"/></p>
+<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/d75fa689-2e69-49f9-8cd5-b5278f5dbdb7" width="80%"/></p>
+<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6162677e-5d66-4651-a593-66e1dedea622" width="80%"/></p>
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/62454448-65bc-4e2a-986d-6113b08309e5" width="80%"/></p>
-<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6bd72bca-1c49-404a-b13a-f4f61b416146" width="98%"/></p>
+<p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/6bd72bca-1c49-404a-b13a-f4f61b416146" width="80%"/></p>
