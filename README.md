@@ -6,6 +6,9 @@ The data is provided by the [Murder Accountability Project](http://www.murderdat
 
 ## Data Understanding
 
+Unbalanced data set with 70% solved and 30% unsolved murder cases. Overall decline in murders per capita over the last 45 years, but rising again since 2014 with a sharp increase in 2020. Steady murder clearance rate of around 70% since 1990. Vast majority of murders carried out using handguns, followed by knifes and other types of firearms. For most murders the relationship of victim and offender could not be determined. The most common known relationship however is acquaintance. During the months of July and August there have been the most murders although the winter months of December, September and October follow closely behind.
+![image](https://github.com/glarkstoat/DDS-Project/assets/74681570/b2bfb40a-7030-4c52-a95b-4c8cc1083daf)
+
 
 
 <p align="center"><img src="https://github.com/glarkstoat/DDS-Project/assets/74681570/329676f7-a519-492f-9551-b803a77c91c0" width="98%"/></p>
